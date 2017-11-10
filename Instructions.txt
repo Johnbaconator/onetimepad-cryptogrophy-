@@ -1,0 +1,13 @@
+Run file useing cmd from its location. Example:C:\Users\"user"\Downloads\encryption.jar
+
+File has 3 comand imputs: process, file1, file2
+
+Procsess: e for encryption to encrypt a new file. d for decryption to decrypt encryped file useing key
+
+file1: file to be encrypted or decrypted
+
+file2: key file for decryption (only needed if decrypting)
+
+(not real calls)
+example run[ java -jar C:\Users\"user"\Downloads\encryption.jar e C:\Users\"user"\Downloads\testfile1.txt ]
+	 or  [ java -jar C:\Users\"user"\Downloads\encryption.jar d C:\Users\"user"\Downloads\testfile1.txtencrypted C:\Users\"user"\Downloads\testfile1.txtkey ]
